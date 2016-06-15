@@ -1,0 +1,7 @@
+#!/bin/bash
+set -x
+
+KVM_ARGS=$@
+
+# Start qemu
+qemu-system-x86_64 $KVM_ARGS
